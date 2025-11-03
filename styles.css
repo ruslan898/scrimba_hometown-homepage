@@ -60,3 +60,47 @@ img {
   background-color: #457b9d;
   border-radius: 10px;
 }
+
+.activities {
+  min-height: 378px;
+  padding: 38px 5%;
+  color: rgba(29, 53, 87, 1);
+  background-color: #F1FAEE;
+}
+.activities-title {
+  color: #1d3557;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+}
+
+.activities-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 54px;
+}
+
+.activities-item {
+  max-width: 198px;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+}
+
+.activities-title-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 22px;
+}
+
+.activities-item-title {
+  font-weight: 700;
+  margin-bottom: 17px;
+}
+
+.activities-item-text {
+  font-weight: 400;
+}
