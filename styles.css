@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 /**
 Palette: https://scrimba.com/links/hometown-palette
 RED: #E63946
@@ -8,11 +10,53 @@ DARK BLUE: #1D3557
 
 */
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    text-align: center;
+  padding: 0 5%;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
 }
 
 img {
-    width: 100px;
+  width: 100px;
+}
+
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.hero {
+  min-height: 343px;
+  background: url('./images/torshov.jpg') center center / cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+}
+
+.hero-title {
+  font-size: 32px;
+  line-height: 38px;
+  padding: 4px 12px;
+  background-color: #1d3557;
+  border-radius: 10px;
+}
+
+.hero-subtitle {
+  max-width: 412px;
+  font-size: 18px;
+  line-height: 22px;
+  padding: 5px 20px;
+  background-color: #457b9d;
+  border-radius: 10px;
 }
