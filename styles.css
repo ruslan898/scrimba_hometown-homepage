@@ -86,6 +86,12 @@ img {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
+  transition: 0.2s all;
+  border-radius: 10px;
+}
+
+.activities-item:hover {
+  background-color: #efefef;
 }
 
 .activities-title-img {
